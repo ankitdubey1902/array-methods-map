@@ -16,43 +16,53 @@ $secondary: #9b9b9b;
   justify-items: center;
   align-items: center;
   height: 100vh;
+
   .container {
     margin: 0 auto;
     width: 1280px;
     min-width: 1280px;
     display: flex;
     justify-content: center;
+
     .job-container {
       border: 1px solid $border;
       width: 600px;
+
       .job-row {
         width: 100%;
         background: $jobBG;
         border-bottom: 1px solid $border;
         height: 72px;
         padding: 16px;
+
         &:last-child {
           border-bottom: none;
         }
+
         .job-inner {
           display: flex;
           justify-content: space-between;
           align-items: center;
+
           .company-logo {
             width: 40px;
             height: 40px;
+
             img {
               width: 100%;
             }
           }
+
           .job-description {
             width: 240px;
+
             .company-name {
               font-size: 14px;
               line-height: 14px;
               color: $secondary;
               margin-bottom: 8px;
             }
+
             .position {
               font-size: 18px;
               line-height: 18px;
@@ -60,8 +70,10 @@ $secondary: #9b9b9b;
               font-weight: 700;
             }
           }
+
           .job-misc {
             text-align: right;
+
             .date {
               display: block;
               line-height: 12px;
@@ -70,6 +82,7 @@ $secondary: #9b9b9b;
               font-weight: 300;
               margin-bottom: 16px;
             }
+
             .location {
               display: block;
               width: 120px;
